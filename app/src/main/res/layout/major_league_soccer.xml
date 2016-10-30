@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:src="@drawable/mls_logo"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center_horizontal"/>
+
+    <GridLayout
+        android:layout_width="400dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:paddingLeft="20dp"
+        android:useDefaultMargins="true"
+        android:alignmentMode="alignBounds"
+        android:columnOrderPreserved="false"
+        android:columnCount="2">
+
+        <TextView
+            android:text="League Info"
+            android:textSize="24sp"
+            android:layout_columnSpan="2"
+            android:layout_gravity="center_horizontal"
+            />
+
+        <TextView
+            android:text="Country:"
+            android:textSize="16sp"
+            android:layout_columnSpan="1"
+            />
+
+        <TextView
+            android:text="United States of America"
+            android:textSize="16sp"
+            android:layout_columnSpan="1"
+            />
+
+        <TextView
+            android:text="Confederation:"
+            android:textSize="16sp"
+            android:layout_columnSpan="1"
+            />
+
+        <TextView
+            android:text="CONCACAF"
+            android:textSize="16sp"
+            android:layout_columnSpan="1"
+            />
+
+        <TextView
+            android:text="Founded:"
+            android:textSize="16sp"
+            android:layout_columnSpan="1"
+            />
+
+        <TextView
+            android:text="1993"
+            android:textSize="16sp"
+            android:layout_columnSpan="1"
+            />
+
+        <TextView
+            android:text="Number of Teams:"
+            android:textSize="16sp"
+            android:layout_columnSpan="1"
+            />
+
+        <TextView
+            android:text="20"
+            android:textSize="16sp"
+            android:layout_columnSpan="1"
+            />
+
+        <TextView
+            android:text="Domestic Cup(s):"
+            android:textSize="16sp"
+            android:layout_columnSpan="1"
+            />
+
+        <TextView
+            android:text="U.S. Open Cup\nCanadian Championship"
+            android:textSize="16sp"
+            android:layout_columnSpan="1"
+            />
+
+        <TextView
+            android:text="International Cup(s):"
+            android:textSize="16sp"
+            android:layout_columnSpan="1"
+            />
+
+        <TextView
+            android:text="CONCACAF Champions League"
+            android:textSize="16sp"
+            android:layout_columnSpan="1"
+            android:layout_width="0dp"
+            android:layout_gravity="fill_horizontal"
+            />
+
+        <TextView
+            android:text="Current Champions:"
+            android:textSize="16sp"
+            android:layout_columnSpan="1"
+            />
+
+        <TextView
+            android:text="Portland Timbers (1st title)"
+            android:textSize="16sp"
+            android:layout_columnSpan="1"
+            />
+
+        <TextView
+            android:text="Most Championships:"
+            android:textSize="16sp"
+            android:layout_columnSpan="1"
+            />
+
+        <TextView
+            android:text="LA Galaxy (5 titles)"
+            android:textSize="16sp"
+            android:layout_columnSpan="1"
+            />
+
+        <TextView
+            android:text="Notable Rivalries:"
+            android:textSize="16sp"
+            android:layout_columnSpan="1"
+            />
+
+        <TextView
+            android:text="Seattle Sounders vs. Portland Timbers\nNY Red Bulls vs. D.C. United\nLA Galaxy vs. San Jose Earthquakes"
+            android:textSize="16sp"
+            android:layout_columnSpan="1"
+            android:layout_width="0dp"
+            android:layout_gravity="fill_horizontal"
+            />
+
+
+    </GridLayout>
+
+</LinearLayout>

@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:src="@drawable/laliga_logo"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center_horizontal"/>
+
+    <GridLayout
+        android:layout_width="400dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:paddingLeft="20dp"
+        android:useDefaultMargins="true"
+        android:alignmentMode="alignBounds"
+        android:columnOrderPreserved="false"
+        android:columnCount="2">
+
+        <TextView
+            android:text="League Info"
+            android:textSize="24sp"
+            android:layout_columnSpan="2"
+            android:layout_gravity="center_horizontal"
+            />
+
+        <TextView
+            android:text="Country:"
+            android:textSize="16sp"
+            android:layout_columnSpan="1"
+            />
+
+        <TextView
+            android:text="Spain"
+            android:textSize="16sp"
+            android:layout_columnSpan="1"
+            />
+
+        <TextView
+            android:text="Confederation:"
+            android:textSize="16sp"
+            android:layout_columnSpan="1"
+            />
+
+        <TextView
+            android:text="UEFA"
+            android:textSize="16sp"
+            android:layout_columnSpan="1"
+            />
+
+        <TextView
+            android:text="Founded:"
+            android:textSize="16sp"
+            android:layout_columnSpan="1"
+            />
+
+        <TextView
+            android:text="1929"
+            android:textSize="16sp"
+            android:layout_columnSpan="1"
+            />
+
+        <TextView
+            android:text="Number of Teams:"
+            android:textSize="16sp"
+            android:layout_columnSpan="1"
+            />
+
+        <TextView
+            android:text="20"
+            android:textSize="16sp"
+            android:layout_columnSpan="1"
+            />
+
+        <TextView
+            android:text="Domestic Cup(s):"
+            android:textSize="16sp"
+            android:layout_columnSpan="1"
+            />
+
+        <TextView
+            android:text="Copa del Rey\nSupercopa de España"
+            android:textSize="16sp"
+            android:layout_columnSpan="1"
+            />
+
+        <TextView
+            android:text="International Cup(s):"
+            android:textSize="16sp"
+            android:layout_columnSpan="1"
+            />
+
+        <TextView
+            android:text="UEFA Champions League\nUEFA Europa League"
+            android:textSize="16sp"
+            android:layout_columnSpan="1"
+            android:layout_width="0dp"
+            android:layout_gravity="fill_horizontal"
+            />
+
+        <TextView
+            android:text="Current Champions:"
+            android:textSize="16sp"
+            android:layout_columnSpan="1"
+            />
+
+        <TextView
+            android:text="FC Barcelona (24th title)"
+            android:textSize="16sp"
+            android:layout_columnSpan="1"
+            />
+
+        <TextView
+            android:text="Most Championships:"
+            android:textSize="16sp"
+            android:layout_columnSpan="1"
+            />
+
+        <TextView
+            android:text="Real Madrid (32 titles)"
+            android:textSize="16sp"
+            android:layout_columnSpan="1"
+            />
+
+        <TextView
+            android:text="Notable Rivalries:"
+            android:textSize="16sp"
+            android:layout_columnSpan="1"
+            />
+
+        <TextView
+            android:text="Real Madrid vs. Barcelona\nAtletico Madrid vs. Real Madrid\nAtletic Madrid vs. Sevilla"
+            android:textSize="16sp"
+            android:layout_columnSpan="1"
+            android:layout_width="0dp"
+            android:layout_gravity="fill_horizontal"
+            />
+
+
+    </GridLayout>
+
+</LinearLayout>
