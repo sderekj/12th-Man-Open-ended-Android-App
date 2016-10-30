@@ -11,6 +11,10 @@
         android:layout_height="200dp"
         android:layout_gravity="center_horizontal"/>
 
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
     <GridLayout
         android:layout_width="400dp"
         android:layout_height="match_parent"
@@ -142,5 +146,7 @@
 
 
     </GridLayout>
+
+    </ScrollView>
 
 </LinearLayout>
